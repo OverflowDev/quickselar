@@ -1,8 +1,8 @@
 
 function Service() {
   return (
-    <div className="bg-blue-50">
-      <div className='md:flex items-center justify-between md:max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
+    <div className="bg-blue-50 py-16">
+      <div className='md:flex items-center justify-between md:max-w-screen-xl px-4 py-2 mx-auto sm:px-6 lg:px-8'>
           <div className='animate-fadeInUp delay-200 duration-400 md:w-2/5 ' >
             <h1 className='text-lg text-blue-800 mb-2 tracking-normal font-light'>OUR SERVICE</h1>
             <h2 className='text-gray-800 text-3xl font-semibold tracking-wide mb-8'>
@@ -19,8 +19,14 @@ function Service() {
           </div>
       </div>
 
-      <div className="mt-8">
+      <div className=" md:max-w-screen-xl px-4 mt-3 mx-auto sm:px-6 lg:px-8">
+        <div className="flex flex-row gap-8">
+          
+          <div className="md:w-1/3 bg-white flex-">
 
+          </div>
+
+        </div>
       </div>
     </div>
   )
