@@ -8,7 +8,7 @@ import Navbar from "./Layouts/Navbar"
 function App() {
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto font-Barlow">
       <Navbar />
       <Hero />
       <About />

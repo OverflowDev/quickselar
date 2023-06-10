@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        barlow: ["Barlow", ...defaultTheme.fontFamily.sans],
+        Barlow: ["Barlow", ...defaultTheme.fontFamily.sans],
       }
     },
   },
