@@ -10,7 +10,7 @@ function Navbar() {
         setIsOPen(!isOPen)
     }
 
-  const closeMenu = () => setIsOpen(false)
+  const closeMenu = () => setIsOPen(false)
 
 
   return (
