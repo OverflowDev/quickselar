@@ -10,7 +10,8 @@ function Navbar() {
         setIsOPen(!isOPen)
     }
 
-    console.log(isOPen)
+  const closeMenu = () => setIsOpen(false)
+
 
   return (
     // <div className='fixed top-0 inset-x-0 z-10'>
@@ -25,9 +26,15 @@ function Navbar() {
 
                 <div className="lg:hidden">
                     <button onClick={menu}>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                        </svg>
+                        {!isOPen ? (
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                            </svg>
+                        ) : (
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        )}
                     </button>
                 </div>
             </div>
@@ -42,10 +49,10 @@ function Navbar() {
             <div 
                 className={`bg-white absolute top-0 bottom-0 w-full flex flex-col h-screen py-36 px-12 space-y-12 delay-200 duration-500 z-10 lg:hidden transition ${isOPen ? 'left-0' : 'left-[-100%]'}`}
             >
-                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">About Us</button>
-                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Service</button>
-                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Blog</button>
-                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Contact</button>
+                <button onClick={closeMenu} className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">About Us</button>
+                <button onClick={closeMenu} className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Service</button>
+                <button onClick={closeMenu} className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Blog</button>
+                <button onClick={closeMenu} className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Contact</button>
             </div>
         </nav>
     </div>
