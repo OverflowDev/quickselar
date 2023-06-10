@@ -5,7 +5,7 @@ function Navbar() {
   return (
     // <div className='fixed top-0 inset-x-0'>
     <div className='sticky top-0'>
-        <nav className="flex justify-between items-center text-center py-4 md:px-24 px-8 bg-gray-200 bg-main bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-60 shadow sm:items-baseline w-full">
+        <nav className="flex justify-between items-center text-center py-4 md:px-24 px-8 bg-gray-100 bg-main bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-60 shadow sm:items-baseline w-full">
             <div className="">
                 <img src={Logo} alt="logo" className='bg-cover w-full h-4' />
             </div>
