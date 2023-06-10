@@ -6,7 +6,10 @@ function Offer() {
       <div className="md:max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
 
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='text-md text-blue-900 mb-2 tracking-wide'>WE OFFER BEST IT SERVICES</h1>
+          <h1 className='text-md text-blue-900 mb-2 tracking-wide flex items-center gap-3'>
+            <div className='bg-blue-700 w-1 h-6 rounded-md'></div>
+            WE OFFER BEST IT SERVICES
+          </h1>
           <h1 className='text-3xl font-bold tracking-wider mb-5 text-center'>Easy Solutions for all Difficult IT Problems</h1>
 
           <div className="flex items-center space-x-2 px-3 py-6 h-8 border-b-2 border-blue-400 rounded-lg">
