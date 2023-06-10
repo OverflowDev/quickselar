@@ -9,7 +9,7 @@ import Navbar from "./Layouts/Navbar"
 function App() {
 
   return (
-    <div className="container mx-auto font-barlow">
+    <div className="font-barlow">
       <Navbar />
       <Information />
       <Hero />
