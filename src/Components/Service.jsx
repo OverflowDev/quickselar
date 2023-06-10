@@ -31,7 +31,7 @@ function Service() {
               <h1>IT Management</h1>
             </div>
 
-            <p className="py-1 tracking-normal leading-normal">
+            <p className="py-1 tracking-wide leading-normal text-gray-600 group-hover:text-white font-normal group-hover:font-medium">
               We help businesses by making sure their technology systems work well and meet their goals. This includes tasks like fixing hardware and software, keeping the network safe, organizing data, and planning for future technology needs.
             </p>
           </div>
@@ -44,8 +44,8 @@ function Service() {
               <h1 className="tracking-wide">Software Engineering</h1>
             </div>
 
-            <p className="py-1 tracking-normal leading-normal">
-              We help businesses by making sure their technology systems work well and meet their goals. This includes tasks like fixing hardware and software, keeping the network safe, organizing data, and planning for future technology needs.
+            <p className="py-1 tracking-wide leading-normal text-gray-600 group-hover:text-white font-normal group-hover:font-medium">
+              We specialize in software engineering, which is the process of using engineering principles and methods to design, develop, and maintain high-quality software systems during development.
             </p>
           </div>
           <div className="flex-col md:w-1/3 h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
@@ -57,8 +57,8 @@ function Service() {
               <h1 className="tracking-wide">Cloud Computing</h1>
             </div>
 
-            <p className="py-1 tracking-normal leading-normal">
-              We help businesses by making sure their technology systems work well and meet their goals. This includes tasks like fixing hardware and software, keeping the network safe, organizing data, and planning for future technology needs.
+            <p className="py-1 tracking-wide leading-normal font-normal group-hover:font-medium text-gray-600 group-hover:text-white">
+              We assist businesses and individuals with cloud computing, which enables access to data, software, and other resources online. Our service helps to reduce costs, increase flexibility, and improve teamwork
             </p>
           </div>
 
