@@ -9,7 +9,7 @@ import Navbar from "./Layouts/Navbar"
 function App() {
 
   return (
-    <div className="font-barlow">
+    <div className="overflow-hidden font-barlow">
       <Navbar />
       <Information />
       <Hero />
