@@ -1,5 +1,6 @@
 import About from "./Components/About"
 import Hero from "./Components/Hero"
+import Information from "./Components/Information"
 import Offer from "./Components/Offer"
 import Service from "./Components/Service"
 import Footer from "./Layouts/Footer"
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="container mx-auto font-barlow overflow-hidden">
       <Navbar />
+      <Information />
       <Hero />
       <About />
       <Service />
