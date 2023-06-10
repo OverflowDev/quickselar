@@ -9,9 +9,9 @@ function Offer() {
           <h1 className='text-md text-blue-900 mb-2 tracking-wide'>WE OFFER BEST IT SERVICES</h1>
           <h1 className='text-3xl font-bold tracking-wider mb-5 text-center'>Easy Solutions for all Difficult IT Problems</h1>
 
-          <div className="flex items-center space-x-4 border-b border-gray-600 ">
+          <div className="flex items-center space-x-2 px-3 py-6 h-8 border-b-2 border-blue-400 rounded-lg">
             <img src={Electron} alt="Electron" className='w-6 h-6' />
-            <h1 className="font-light tracking-wide">Technology Index</h1>
+            <h1 className="font-medium tracking-wide text-lg">Technology Index</h1>
           </div>
         </div>
 
