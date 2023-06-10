@@ -17,8 +17,11 @@ function About() {
         </p>
       </div>
       
-      <div className='w-2/5 h-96 bg-center bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply rounded-lg' style={{ backgroundImage: `url(${AboutImage})` }}>
-        
+      <div className='w-2/5 h-96 bg-center bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply rounded-lg relative' style={{ backgroundImage: `url(${AboutImage})` }}>
+        <button className='animate-bounce animate-duration-1000 absolute inset-x-0 bottom-6 left-24 flex items-center justify-center space-x-8 bg-blue-700 text-white py-2 px-4 w-72 h-20 rounded-lg'>
+          <h1 className='text-4xl'>27</h1>
+          <h2>YEAR'S EXPERIENCE IT</h2>
+        </button>
       </div>
     </div>
   )
