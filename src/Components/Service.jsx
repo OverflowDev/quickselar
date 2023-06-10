@@ -20,7 +20,7 @@ function Service() {
       </div>
 
       <div className=" md:max-w-screen-xl px-4 mt-3 mx-auto sm:px-6 lg:px-8">
-        <div className="flex flex-row gap-8">
+        <div className="md:flex gap-8 space-y-4">
           
           <div className="flex-col md:w-1/3 md:h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
             
