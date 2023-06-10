@@ -3,10 +3,11 @@ import Logo from '../assets/logo.png'
 
 function Navbar() {
   return (
-    <div>
-        <nav className="flex justify-between items-center text-center py-4 md:px-24 px-8 bg-white shadow sm:items-baseline w-full">
-            <div className="mb-2 sm:mb-0">
-                <a href="/home" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark">Home</a>
+    // <div className='fixed top-0 inset-x-0'>
+    <div className='sticky top-0'>
+        <nav className="flex justify-between items-center text-center py-4 md:px-24 px-8 bg-gray-200 bg-main bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-60 shadow sm:items-baseline w-full">
+            <div className="">
+                <img src={Logo} alt="logo" className='bg-cover w-full h-4' />
             </div>
 
             <div className="lg:hidden">
