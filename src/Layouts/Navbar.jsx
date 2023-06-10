@@ -19,10 +19,10 @@ function Navbar() {
             </div>
 
             <div className="lg:flex items-center justify-around space-x-8 hidden">
-                <button className="text-md font-medium tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">About Us</button>
-                <button className="text-md font-medium tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Service</button>
-                <button className="text-md font-medium tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Blog</button>
-                <button className="text-md font-medium tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Contact</button>
+                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">About Us</button>
+                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Service</button>
+                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Blog</button>
+                <button className="text-md font-semibold tracking-wide hover:border-b-2 hover:border-blue-600 hover:transition hover:text-blue-600">Contact</button>
             </div>
         </nav>
     </div>

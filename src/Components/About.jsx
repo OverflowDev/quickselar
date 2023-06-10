@@ -7,7 +7,7 @@ function About() {
       <div className='md:flex items-center justify-between md:max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
         
         <div className='animate-fadeInUp delay-200 duration-400 md:w-2/5 ' >
-          <div className='text-lg text-blue-800 mb-2 tracking-normal flex items-center gap-3'>
+          <div className='text-lg text-blue-800 mb-2 tracking-normal font-semibold flex items-center gap-3'>
             <div className='bg-blue-700 w-1 h-6 rounded-md'></div>
             ABOUT COMPANY
           </div>
