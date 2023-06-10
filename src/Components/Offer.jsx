@@ -1,3 +1,4 @@
+import Electron from '../assets/logo-electron.svg'
 
 function Offer() {
   return (
@@ -9,6 +10,7 @@ function Offer() {
           <h1 className='text-3xl font-bold tracking-wider mb-5 text-center'>Easy Solutions for all Difficult IT Problems</h1>
 
           <div className="flex items-center space-x-4 border-b border-gray-600 ">
+            <img src={Electron} alt="Electron" className='w-6 h-6' />
             <h1 className="font-light tracking-wide">Technology Index</h1>
           </div>
         </div>

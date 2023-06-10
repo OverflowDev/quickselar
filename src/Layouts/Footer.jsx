@@ -40,11 +40,11 @@ function Footer() {
                   IT Services
                 </p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-                  <a className="hover:opacity-75" href> IT Services </a>
-                  <a className="hover:opacity-75" href> Cyber Security </a>
-                  <a className="hover:opacity-75" href> Cloud Computing </a>
-                  <a className="hover:opacity-75" href> IT Report </a>
-                  <a className="hover:opacity-75" href> IT support </a>
+                  <div className="hover:opacity-75" href> IT Services </div>
+                  <div className="hover:opacity-75" href> Cyber Security </div>
+                  <div className="hover:opacity-75" href> Cloud Computing </div>
+                  <div className="hover:opacity-75" href> IT Report </div>
+                  <div className="hover:opacity-75" href> IT support </div>
                 </nav>
               </div>
               <div>
@@ -52,11 +52,11 @@ function Footer() {
                   Quick Links
                 </p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-                  <a className="hover:opacity-75" href> About Us </a>
-                  <a className="hover:opacity-75" href> Blog </a>
-                  <a className="hover:opacity-75" href> Contact Us </a>
-                  <a className="hover:opacity-75" href> FAQs </a>
-                  <a className="hover:opacity-75" href> Live Chat </a>
+                  <div className="hover:opacity-75" href> About Us </div>
+                  <div className="hover:opacity-75" href> Blog </div>
+                  <div className="hover:opacity-75" href> Contact Us </div>
+                  <div className="hover:opacity-75" href> FAQs </div>
+                  <div className="hover:opacity-75" href> Live Chat </div>
                 </nav>
               </div>
             </div>

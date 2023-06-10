@@ -22,7 +22,7 @@ function Service() {
       <div className=" md:max-w-screen-xl px-4 mt-3 mx-auto sm:px-6 lg:px-8">
         <div className="flex flex-row gap-8">
           
-          <div className="flex-col md:w-1/3 h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
+          <div className="flex-col md:w-1/3 md:h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
             
             <div className="flex items-center justify-center space-x-4 text-2xl group-hover:text-white text-blue-800 font-semibold tracking-wide">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -35,7 +35,7 @@ function Service() {
               We help businesses by making sure their technology systems work well and meet their goals. This includes tasks like fixing hardware and software, keeping the network safe, organizing data, and planning for future technology needs.
             </p>
           </div>
-          <div className="flex-col md:w-1/3 h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
+          <div className="flex-col md:w-1/3 md:h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
             
             <div className="flex items-center justify-center space-x-4 text-2xl group-hover:text-white text-blue-800 font-semibold tracking-wide">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -48,7 +48,7 @@ function Service() {
               We specialize in software engineering, which is the process of using engineering principles and methods to design, develop, and maintain high-quality software systems during development.
             </p>
           </div>
-          <div className="flex-col md:w-1/3 h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
+          <div className="flex-col md:w-1/3 md:h-48 border-l border-blue-700 group hover:bg-blue-600 hover:text-white hover:rounded-lg animate-fadeInUp hover:delay-100 hover:duration-100 hover:transition-all px-6 py-2">
             
             <div className="flex items-center justify-center space-x-4 text-2xl group-hover:text-white text-blue-800 font-semibold tracking-wide">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
