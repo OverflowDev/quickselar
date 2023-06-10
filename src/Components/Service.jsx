@@ -1,7 +1,7 @@
 
 function Service() {
   return (
-    <div>
+    <div className="bg-blue-50">
       <div className='md:flex items-center justify-between md:max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
           <div className='animate-fadeInUp delay-200 duration-400 md:w-2/5 ' >
             <h1 className='text-lg text-blue-800 mb-2 tracking-normal font-light'>OUR SERVICE</h1>
@@ -17,6 +17,10 @@ function Service() {
               </svg>
             </button>
           </div>
+      </div>
+
+      <div className="mt-8">
+
       </div>
     </div>
   )
